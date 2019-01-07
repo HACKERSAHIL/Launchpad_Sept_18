@@ -83,7 +83,7 @@ void print(node * head){
     cout<<"NULL"<<endl;
 }
 
-//accessing next element from a given node
+//accessing next element from a given nmode
 node * nextElelment(node * element){
     if(element==NULL){
         cout<< "USE yr brain!"<<endl;
@@ -154,7 +154,7 @@ node * findRecursiveFront(node * head,int value){
     if(head->data==value){
         return head;
     }
-    //cout<<head->data<<endl;
+    cout<<head->data<<endl;
     return findRecursiveFront(head->next,value);
 }
 node * findRecursiveLast(node * head,int value){
